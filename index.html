@@ -11,30 +11,46 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 </head>
 <body>
-  <section>
-    <div class="">
+  <section class="contact pad-t-2 pad-b-2">
+    <div class="max-length">
       <h1>Want to go to Mars?</h1>
       <p>We’re looking for super-awesome human beings who want to make the long trek to Mars for the adventure of a lifetime.</p>
+      <p>Personal details</p>
+        <form class="push-0" method="POST" action="https://formspree.io/ferg0258@algonquinlive.com">
+          <div class="push">
+            <label for="name">Name</label>
+            <input id="name" name="name" required>
+          </div>
+          <div class="push">
+            <label for="email">Your email</label>
+            <input id="email" type="email" placeholder="me@me.com" name="email" required>
+          </div>
+          <div class="push">
+            <label for="subject">Physical fitness</label>
+            <select id="subject" name="_subject">
+              <option>Super-human</option>
+              <option>Fit as a fiddle</option>
+              <option>Not terribly strong</option>
+              <option>A little couch-potato-y</option>
+            </select>
+          </div>
+          <div class="push">
+            <label for="details">What's up?</label>
+            <textarea id="details" name="message" required></textarea>
+          </div>
+          <div>
+            <button class="btn btn-light mega" type="submit">Send message</button>
+          </div>
+        </form>
     </div>
   </section>
-
-  Personal details
-  Name
-  Age
-  Email
-  Physical fitness
-  - Super-human
-  - Fit as a fiddle
-  - Not terribly strong
-  - A little couch-potato-y
-  Address
-
-  Mission statement
-  Why do you want to go to Mars?
-
-  Register for the trip!
-
-  Request to join the mission
-
 </body>
 </html>
+Address
+
+Mission statement
+Why do you want to go to Mars?
+
+Register for the trip!
+
+Request to join the mission
