@@ -1,6 +1,12 @@
 html {
   font-family: "Open Sans", sans-serif;
 }
+
+.btn {
+  color: #fff;
+  background-color: #000;
+  border-radius: 10px;
+}
 @media only screen and (min-width: 60em) {
 
 }
