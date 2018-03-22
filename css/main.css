@@ -1,7 +1,6 @@
 html {
   font-family: "Open Sans", sans-serif;
   background-color: #fff;
-  padding: 1rem;
 }
 
 .btn {
@@ -12,8 +11,12 @@ html {
 
 @media only screen and (min-width: 60em) {
 
-  html {
-    margin: 0;
+  .pad-left {
+    padding-left: .5em;
+  }
+
+  .pad-right {
+    padding-right: .5em;
   }
 
 }
